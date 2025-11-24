@@ -85,7 +85,7 @@ ytitle("") ///
 yscale(lstyle(none)) ///
 ylabel(0 "0%" .10 "10%" .20 "20%" .30 "30%" .40 "40%" .50 "50%" .60 "60%" .70 "70%" .80 "80%", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%20) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(order(1 "Greatest Generation" 2 "Silent Generation" 3 "Baby Boomers" 4 "Gen X" 5 "Millennials" 6 "Gen Z") ring(0) pos(4) color(gs11) size(4) region(fcolor("17 24 39%0"))) ///
-note("Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2024).} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults.}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
+note("Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2024).} Sample: {fontface Lato:U.S. adult civilians.}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
 caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7)) ///
 graphregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
 plotregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
@@ -133,7 +133,7 @@ ytitle("") ///
 yscale(lstyle(none)) ///
 ylabel(0 "0%" .10 "10%" .20 "20%" .30 "30%" .40 "40%" .50 "50%" .60 "60%" .70 "70%" .80 "80%", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%20) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(order(1 "Gen X" 2 "Millennials") ring(0) rows(1) pos(11) color(gs11) size(4) region(fcolor("17 24 39%0"))) ///
-note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults (excludes group quarters).}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
+note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. adult civilians (excludes group quarters).}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
 caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7)) ///
 graphregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
 plotregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
@@ -194,7 +194,7 @@ ytitle("") ///
 yscale(lstyle(none)) ///
 ylabel(0 "0%" .10 "10%" .20 "20%" .30 "30%" .40 "40%" .50 "50%" .60 "60%" .70 "70%" .80 "80%", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%20) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(order(1 "Millennials" 2 "1981 Millennials") ring(0) rows(2) pos(5) color(gs11) size(4) region(fcolor("17 24 39%0"))) ///
-note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults (excludes group quarters).}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
+note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. adult civilians (excludes group quarters).}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
 caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7)) ///
 text(.4 44 "44 years old", orientation(vertical) color(gray) size(small) placement(w)) ///
 text(.4 43 "43 years old", orientation(vertical) color(gray) size(small) placement(w)) ///
@@ -286,7 +286,7 @@ yscale(lstyle(none)) ///
 ylabel(0 "0%" .2 "20%" .4 "40%" .6 "60%" .8 "80%", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%40) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(order(1 "Gen X Cohorts" 2 "Millennial Cohorts") pos(12) rows(1) color(white) region(fcolor("17 24 39") lcolor("17 24 39"))) ///
 by(, legend(order(1 "Gen X Cohorts" 2 "Millennial Cohorts") pos(12) rows(1))) ///
-by(, note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults (excludes group quarters).}" `notes', margin(l+1.5) color(gs7) span size(vsmall) position(7))) ///
+by(, note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. adult civilians (excludes group quarters).}" `notes', margin(l+1.5) color(gs7) span size(vsmall) position(7))) ///
 by(, caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7))) ///
 by(, graphregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none))) ///
 plotregion(fcolor("17 24 39") lcolor("17 24 39")) ///
@@ -318,7 +318,7 @@ yscale(lstyle(none)) ///
 ylabel(.05 "+5" 0 "0" -.05 "-5" -.10 "-10" -.15 "-15", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%40) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(order(1 "Gen X Cohorts" 2 "Millennial Cohorts") pos(12) rows(1) color(white) region(fcolor("17 24 39") lcolor("17 24 39"))) ///
 by(, legend(order(1 "Gen X Cohorts" 2 "Millennial Cohorts") pos(12) rows(1))) ///
-by(, note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults (excludes group quarters).}" `notes', margin(l+1.5) color(gs7) span size(vsmall) position(7))) ///
+by(, note("Source: {fontface Lato:Author's analysis of IPUMS-CPS.} Sample: {fontface Lato:U.S. adult civilians (excludes group quarters).}" `notes', margin(l+1.5) color(gs7) span size(vsmall) position(7))) ///
 by(, caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7))) ///
 by(, graphregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none))) ///
 plotregion(fcolor("17 24 39") lcolor("17 24 39")) ///
@@ -368,7 +368,7 @@ ytitle("") ///
 yscale(lstyle(none)) ///
 ylabel(0 "0%" .10 "10%" .20 "20%" .30 "30%" .40 "40%" .50 "50%" .60 "60%" .70 "70%" .80 "80%", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%20) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(order(1 "Baby Boomers" 2 "Gen X" 3 "Millennials" 4 "Gen Z") ring(1) rows(1) pos(12) size(small) color(gs11) region(fcolor("17 24 39") lcolor("17 24 39") margin(t-1))) ///
-note("Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2025).} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults (excludes group quarters).}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
+note("Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2025).} Sample: {fontface Lato:U.S. adult civilians (excludes group quarters).}" `notes', margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
 caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7)) ///
 graphregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
 plotregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
@@ -393,6 +393,10 @@ use ipumscps_wrangled.dta, clear
 // Limit analysis to Baby Boomers, Gen X, Millennials, and Gen Z
 keep if inlist(generation, 2, 3, 4, 5)
 
+// Recode Baby Boomer generation definition
+replace generation = . if generation == 2
+replace generation = 2 if inrange(birth, 1949, 1964)
+
 // Calculate midpoint age in each year for each generation
 /* NOTE: In this section I change the bottom of the generational range for Baby
    Boomers from 1946 to 1949 so that they have the same number of birth cohorts
@@ -416,7 +420,7 @@ replace range2 = 2012 if generation == 5
 gen midpoint = year - (range1 + ((range2 - range1) / 2))
 
 // Estimate person measure homeownership rates, by generation and age
-collapse (mean) ownp3 ownp1 [pw = asecwt], by(generation midpoint)
+collapse (mean) ownp3 ownp1 (max) agemax = age (min) agemin = age [pw = asecwt], by(generation midpoint)
 
 // Round midpoint up (age label based on age of ninth cohort)
 replace midpoint = midpoint + .5
@@ -445,7 +449,7 @@ ytitle("") ///
 yscale(lstyle(none)) ///
 ylabel(0 "0%" .10 "10%" .20 "20%" .30 "30%" .40 "40%" .50 "50%" .60 "60%" .70 "70%" .80 "80%", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%20) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(order(4 "Baby Boomers" 3 "Gen X" 2 "Millennials" 1 "Gen Z") ring(0) rows(1) pos(6) size(small) color(gs11) region(fcolor("17 24 39") lcolor("17 24 39") margin(t-2))) ///
-note("Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2025).} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults (excludes group quarters).}" `notes' "{fontface Lato:*Since the age midpoint for each gen in each year is a fractional number, I use the age of the 9th cohort (of 16) of each gen.}", margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
+note("Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2025).} Sample: {fontface Lato:U.S. adult civilians (excludes group quarters).}" `notes' "{fontface Lato:*Since the age midpoint for each gen in each year is a fractional number, I use the age of the 9th cohort (of 16) of each gen.}", margin(l+1.5) color(gs11) span size(vsmall) position(7)) ///
 caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7)) ///
 graphregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
 plotregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none)) ///
@@ -533,7 +537,7 @@ yscale(lstyle(none)) ///
 ylabel(0 "0%" .1 "10%" .2 "20%" .3 "30%" .4 "40%" .5 "50%" .6 "60%" .7 "70%" .8 "80%", angle(0) labcolor(gs14) labsize(3.75) gmax gmin glpattern(solid) glcolor(gs9%40) glwidth(vthin) tlength(0) tlcolor(gs9%15)) ///
 legend(off) ///
 by(, legend(off)) ///
-by(, note(" " "Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2025).} Sample: {fontface Lato:U.S. civilian noninstitutionalized adults (excludes group quarters).}" `notes', margin(l+1.5) color(gs7) span size(vsmall) position(7))) ///
+by(, note(" " "Source: {fontface Lato:Author's analysis of IPUMS-CPS (1976-2025).} Sample: {fontface Lato:U.S. adult civilians (excludes group quarters).}" `notes', margin(l+1.5) color(gs7) span size(vsmall) position(7))) ///
 by(, caption("@johcharts on Substack", margin(l+1 t-1) color(white) span size(vsmall) position(7))) ///
 by(, graphregion(margin(0 0 0 0) fcolor("17 24 39") lcolor("17 24 39") lwidth(none) ifcolor("17 24 39") ilcolor("17 24 39") ilwidth(none))) ///
 plotregion(fcolor("17 24 39") lcolor("17 24 39")) ///
