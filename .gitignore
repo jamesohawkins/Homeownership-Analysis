@@ -3,3 +3,12 @@ Derived-Data/*
 Omitted/*
 Scripts/profile.do
 Output/own_timeseries_byagegroup.png
+Output/millennial-vs-genx/ownp3_alt-method.png
+Output/millennial-vs-genx/ownp3_generations-over-time.png
+Output/millennial-vs-genx/ownp3_genx-millennial-cohorts-diff.png
+Output/millennial-vs-genx/ownp3_genx-millennial-cohorts.png
+Output/millennial-vs-genx/ownp3_timeseries-byagegroup.png
+Output/millennial-vs-genx/ownp_generations_replication.png
+Output/millennial-vs-genx/ownp_generations_version2.png
+Output/millennial-vs-genx/ownp_millennial_cohorts-1981.png
+Output/ownership_byage/own_timeseries_byagegroup.png
