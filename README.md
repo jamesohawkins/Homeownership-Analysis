@@ -2,7 +2,7 @@
 This repository contains the Stata code necessary to replicate my analysis of homeownership rates in the United States.
 
 The following scripts are available:
-- [02_millennials-vs-genx.do](https://github.com/jamesohawkins/Homeownership-Analysis/blob/main/Scripts/02_millennials-vs-genx.do): Replicates analysis from 11/24/26 Substack post titled ["No, Millennial Homeownership has Not Caught up with Gen X"]().
+- [02_millennials-vs-genx.do](https://github.com/jamesohawkins/Homeownership-Analysis/blob/main/Scripts/02_millennials-vs-genx.do): Replicates analysis from 11/24/26 Substack post titled ["No, Millennial Homeownership has Not Caught up with Gen X"](https://johcharts.substack.com/p/no-millennial-homeownership-has-not).
 - [02_timeseries_byage.do](https://github.com/jamesohawkins/Homeownership-Analysis/blob/main/Scripts/02_timeseries_byage.do): Replicates analysis from 11/14/26 Substack Notes [post](https://substack.com/@johcharts/note/c-177217595).
 
 Latest analysis:
